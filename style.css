@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*font-family: "Inter", sans-serif;*/
+}
+/*{
+  display: flex;
+}*/
+.intro{
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.intro_mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.intro_mid h1{
+  font-family: "Karla", sans-serif;
+  color:#293264;
+  font-weight: 700;
+}
+.intro_mid h3{
+  font-family: "Inter", sans-serif;
+  color: #293264;
+  font-weight: 400;
+}
+body{
+  background: black;
+}
+#root{
+  background:aliceblue;
+  width: 700px;
+  height: 100dvh;
+  margin: 0 auto;
+}
+.intro a{
+  background: #4D5B9E;
+  color: #F5F7FB;
+  padding: 18px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.intro a:active{
+  scale: .98888;
+}
+.quiz_main{
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.quiz_main h3{
+  font-family: "Karla", sans-serif;
+  padding-bottom: 8px;
+}
+.quiz_options{
+  display: flex;
+  gap: 20px;
+}
+.quiz_options button{
+  padding: 8px 20px;
+  border: .80px solid #4D5B9E;
+  border-radius: 15px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+ button:active{
+  scale: .98888;
+  background: #D6DBF5;
+}
+.seperator{
+  background: #DBDEF0;
+  height: .90px;
+  margin: 15px 0;
+}
+.selected{
+  background: #D6DBF5;
+  border: none;
+}
+.correct{
+  background: rgb(79, 167, 240);
+  border: none;
+}
+.incorrect{
+  background: #ef7a7a;
+  border: none;
+}
+.decide_Sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.decide_Sec button{
+  padding: 15px;
+  background: #4D5B9E;
+  border: none;
+  border-radius: 12px;
+  color: #F5F7FB;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+.resultAns{
+  background: #8fef7a;
+  scale: 1.2;
+  border:2px solid #ef7a7a;
+}
+button{
+  color: black;
+  
+}
