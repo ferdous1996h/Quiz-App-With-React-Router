@@ -9,18 +9,18 @@
 Dinamic Quiz application with counter with React Router
 
 ## 📸 Screenshots
+|Initial Page|Start Quiz|Result Section|
+|-------------------|-------------------|-------------------|
+|![Initial Page](/assets/screenshots/Initial.png)|![Start Quiz](./assets/screenshots/Start%20Quiz.png)|![Result Section](./assets/screenshots/Final%20result.png)|
 
-| Initial Screen | Quiz Session | Final Results |
-|----------------|--------------|---------------|
-| ![Initial Screen](/assets/screenshots/Initial.png) | ![Start Quiz](/assets/screenshots/Start%20Quiz.png) | ![Final Result](/assets/screenshots/Final%20result.png) |
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: React 18+
-- **Routing**: React Router v6
-- **Styling**: CSS3 / CSS Modules
-- **Utilities**: 
-  - `clsx` - for conditional class names
-  - `html-entities` - for decoding HTML entities in questions
-- **Build Tool**: Vite / Create React App
-- **Package Manager**: npm 
+- **Frontend**: React 19+
+- **Routing**:React Router
+- **Styling**:CSS3
+- **Utilities**:
+    -`clsx`- for conditional class component
+    -`html-entities`-for HTML decoding
+- **Build Tool**:Vite
+- **Package Manager**:NPM
