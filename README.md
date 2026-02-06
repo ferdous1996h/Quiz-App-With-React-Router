@@ -20,7 +20,7 @@ Dinamic Quiz application with counter with React Router
 - **Routing**:React Router
 - **Styling**:CSS3
 - **Utilities**:
-    -`clsx`- for conditional class component
-    -`html-entities`-for HTML decoding
+    - **`clsx`** - for conditional class component
+    - ***`html-entities`*** -for HTML decoding
 - **Build Tool**:Vite
 - **Package Manager**:NPM
